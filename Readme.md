@@ -10,4 +10,15 @@ This is the approach that Tailwind CSS uses. Tailwind CSS uses a massive portfol
 
 There are 3 ways to install Tailwind for use in a project:
 
-I. 
+1.Using CDN Link   /** Note this not suitable for production **/
+2.Using PostCSS 
+3.Using Tailwind CLI
+
+
+/**********************  GET STARTED  *************************/
+
+Installing Tailwind using PostCSS can be done with the following steps:
+
+1.Create a folder where the installation will take place. Open the folder with your prefered IDE and then open the built-in terminal of your IDE. if you are using VSCode, the command to open the terminal is CTRL + ~.
+
+2.Go to Tailwind's official website https://www.tailwindcss.com and click on "Get Started". On the installation section, click on "Using PostCSS". This will display an editable screen shot of a terminal. Copy the first command displayed on the editable terminal, go the buit-in IDE terminal you opened ealier, paste and run.
