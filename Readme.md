@@ -19,6 +19,12 @@ There are 3 ways to install Tailwind for use in a project:
 
 Installing Tailwind using PostCSS can be done with the following steps:
 
-1.Create a folder where the installation will take place. Open the folder with your prefered IDE and then open the built-in terminal of your IDE. if you are using VSCode, the command to open the terminal is CTRL + ~.
+1. Create a folder where the installation will take place. Open the folder with your prefered IDE and then open the built-in terminal of your IDE. if you are using VSCode, the command to open the terminal is CTRL + ~.
 
-2.Go to Tailwind's official website https://www.tailwindcss.com and click on "Get Started". On the installation section, click on "Using PostCSS". This will display an editable screen shot of a terminal. Copy the first command displayed on the editable terminal, go the buit-in IDE terminal you opened ealier, paste and run.
+2. Go to Tailwind's official website https://www.tailwindcss.com and click on "Get Started". On the installation section, click on "Using PostCSS". This will display an editable screen shot of a terminal. Copy the first command displayed on the editable terminal, go the buit-in IDE terminal you opened ealier, paste and run. After running the first command on the chrome official website, go back to the website, copy and run the second command on your IDE. This will create a config.js file in the root of your project.
+
+3. Again, on Tailwind's official website, copy the "postcss.config.js" file, go to your project folder and create a new file called "postcss.config.js" and paste the copied code inside and save.
+
+4. Go to the tailwind.config.js file at the root of your directory, in the module's object, edit the content property by adding the path to your html file like so: "./public/**/*.html".
+
+5.
